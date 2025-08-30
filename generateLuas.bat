@@ -46,7 +46,7 @@ echo -- ----->> Media.lua
 for %%F in (sound\*.*) do (
 	if /I NOT "%%~nxF"==".gitkeep" (
 		echo       %%~nF
-		echo LSM:Register("sound", "%%~nF", [[Interface\Addons\VectisCore\sound\%%~nxF]]^) >> Media.lua
+		echo LSM:Register("sound", "vectis %%~nF", [[Interface\Addons\VectisCore\sound\%%~nxF]]^) >> Media.lua
 	)
 )
 
