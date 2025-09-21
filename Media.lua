@@ -16,6 +16,7 @@ local LSM = LibStub("LibSharedMedia-3.0")
 --   SOUND
 -- -----
 LSM:Register("sound", "vectis blamage", [[Interface\Addons\VectisCore\sound\blamage.mp3]]) 
+LSM:Register("sound", "vectis Hot Hot Hot", [[Interface\Addons\VectisCore\sound\Hot Hot Hot.mp3]]) 
 LSM:Register("sound", "vectis im in danger", [[Interface\Addons\VectisCore\sound\im in danger.mp3]]) 
 LSM:Register("sound", "vectis laugh canadian", [[Interface\Addons\VectisCore\sound\laugh canadian.mp3]]) 
 LSM:Register("sound", "vectis laugh", [[Interface\Addons\VectisCore\sound\laugh.mp3]]) 
